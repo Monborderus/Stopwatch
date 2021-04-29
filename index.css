@@ -1,0 +1,76 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #9ae4ad;
+}
+
+.main .name-app {
+  font-size: 64px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.main .timer-bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  width: 350px;
+  padding: 20px;
+  margin: 60px;
+  background-color: #0019a9;
+  border-radius: 10px;
+}
+
+.main .timer-bubble .timer,
+.main .timer-bubble .start-timer,
+.main .timer-bubble .wait-timer,
+.main .timer-bubble .reset-timer {
+  float: left;
+  width: calc(100% - 2px);
+  padding: 20px 0;
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.main .timer-bubble .timer {
+  background-color: #0019a9;
+  border: none;
+  font-size: 38px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main .timer-bubble .start-timer,
+.main .timer-bubble .wait-timer,
+.main .timer-bubble .reset-timer {
+  background: #d4311b;
+}
+
+.main .timer-bubble .start-timer:hover,
+.main .timer-bubble .wait-timer:hover,
+.main .timer-bubble .reset-timer:hover {
+  background: #d44b38;
+}
+/*# sourceMappingURL=index.css.map */
